@@ -1,0 +1,318 @@
+
+local BloxyHubv005 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Opened = Instance.new("Frame")
+local NexusHubPL = Instance.new("TextButton")
+local PREVAILXPL = Instance.new("TextButton")
+local PetSimAutoFarmPetSimulatorX = Instance.new("TextButton")
+local AntiAFK = Instance.new("TextButton")
+local Vapev4Bedwars = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local DHXHubPSX = Instance.new("TextButton")
+local JP100 = Instance.new("TextButton")
+local WS100 = Instance.new("TextButton")
+local Closed = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+BloxyHubv005.Name = "Bloxy Hub  v0.0.5"
+BloxyHubv005.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BloxyHubv005.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = BloxyHubv005
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0, 0, 0.460767955, 0)
+Main.Size = UDim2.new(0.143724695, 0, 0.086811468, 0)
+
+Opened.Name = "Opened"
+Opened.Parent = Main
+Opened.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Opened.Position = UDim2.new(0.943260074, 0, -3.44941425, 0)
+Opened.Size = UDim2.new(0, 719, 0, 405)
+Opened.Visible = false
+
+NexusHubPL.Name = "Nexus Hub (PL)"
+NexusHubPL.Parent = Opened
+NexusHubPL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NexusHubPL.Position = UDim2.new(0.36119169, 0, 0.137436569, 0)
+NexusHubPL.Size = UDim2.new(0, 200, 0, 50)
+NexusHubPL.Font = Enum.Font.SourceSans
+NexusHubPL.Text = "Nexus Hub (Prison Life)"
+NexusHubPL.TextColor3 = Color3.fromRGB(0, 0, 0)
+NexusHubPL.TextSize = 14.000
+
+PREVAILXPL.Name = "PREVAILX (PL)"
+PREVAILXPL.Parent = Opened
+PREVAILXPL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PREVAILXPL.Position = UDim2.new(0.36119169, 0, 0.312745214, 0)
+PREVAILXPL.Size = UDim2.new(0, 200, 0, 50)
+PREVAILXPL.Font = Enum.Font.SourceSans
+PREVAILXPL.Text = "PREVAILX (Prison Life)"
+PREVAILXPL.TextColor3 = Color3.fromRGB(0, 0, 0)
+PREVAILXPL.TextSize = 14.000
+
+PetSimAutoFarmPetSimulatorX.Name = "Pet Sim Auto Farm (Pet Simulator X)"
+PetSimAutoFarmPetSimulatorX.Parent = Opened
+PetSimAutoFarmPetSimulatorX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PetSimAutoFarmPetSimulatorX.Position = UDim2.new(0.361613363, 0, 0.48888889, 0)
+PetSimAutoFarmPetSimulatorX.Size = UDim2.new(0, 200, 0, 50)
+PetSimAutoFarmPetSimulatorX.Font = Enum.Font.SourceSans
+PetSimAutoFarmPetSimulatorX.Text = "Pet Sim X Auto Farm (Pet Simulator X)"
+PetSimAutoFarmPetSimulatorX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetSimAutoFarmPetSimulatorX.TextSize = 14.000
+
+AntiAFK.Name = "Anti AFK"
+AntiAFK.Parent = Opened
+AntiAFK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFK.Position = UDim2.new(0.358831733, 0, 0.664197564, 0)
+AntiAFK.Size = UDim2.new(0, 200, 0, 50)
+AntiAFK.Font = Enum.Font.SourceSans
+AntiAFK.Text = "Anti AFK"
+AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFK.TextSize = 14.000
+
+Vapev4Bedwars.Name = "Vape v4 (Bedwars)"
+Vapev4Bedwars.Parent = Opened
+Vapev4Bedwars.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Vapev4Bedwars.Position = UDim2.new(0.358831733, 0, 0.817283988, 0)
+Vapev4Bedwars.Size = UDim2.new(0, 200, 0, 50)
+Vapev4Bedwars.Font = Enum.Font.SourceSans
+Vapev4Bedwars.Text = "Vape v4 (Bedwars)"
+Vapev4Bedwars.TextColor3 = Color3.fromRGB(0, 0, 0)
+Vapev4Bedwars.TextSize = 14.000
+
+Title.Name = "Title"
+Title.Parent = Opened
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.Position = UDim2.new(-0.0013908206, 0, -0.00107649807, 0)
+Title.Size = UDim2.new(0, 718, 0, 50)
+Title.Font = Enum.Font.SciFi
+Title.Text = "Bloxy Hub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 30.000
+
+UICorner.Parent = Title
+
+Close.Name = "Close"
+Close.Parent = Opened
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.927511215, 0, -0.00107649714, 0)
+Close.Size = UDim2.new(0, 50, 0, 50)
+Close.Font = Enum.Font.Cartoon
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 40.000
+
+UICorner_2.Parent = Close
+
+DHXHubPSX.Name = "DHX Hub ( PSX )"
+DHXHubPSX.Parent = Opened
+DHXHubPSX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DHXHubPSX.Position = UDim2.new(0.684283733, 0, 0.135802463, 0)
+DHXHubPSX.Size = UDim2.new(0, 200, 0, 50)
+DHXHubPSX.Font = Enum.Font.SourceSans
+DHXHubPSX.Text = "DHX Hub ( Pet Simulator X)"
+DHXHubPSX.TextColor3 = Color3.fromRGB(0, 0, 0)
+DHXHubPSX.TextSize = 14.000
+
+JP100.Name = "JP 100"
+JP100.Parent = Opened
+JP100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JP100.Position = UDim2.new(0.683862031, 0, 0.488053858, 0)
+JP100.Size = UDim2.new(0, 200, 0, 50)
+JP100.Font = Enum.Font.SourceSans
+JP100.Text = "JP 100"
+JP100.TextColor3 = Color3.fromRGB(0, 0, 0)
+JP100.TextSize = 14.000
+
+WS100.Name = "WS 100"
+WS100.Parent = Opened
+WS100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WS100.Position = UDim2.new(0.683862031, 0, 0.312745214, 0)
+WS100.Size = UDim2.new(0, 200, 0, 50)
+WS100.Font = Enum.Font.SourceSans
+WS100.Text = "WS 100"
+WS100.TextColor3 = Color3.fromRGB(0, 0, 0)
+WS100.TextSize = 14.000
+
+Closed.Name = "Closed"
+Closed.Parent = Main
+Closed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Closed.BackgroundTransparency = 1.000
+Closed.Position = UDim2.new(0, 0, 0.326922655, 0)
+Closed.Size = UDim2.new(0, 100, 0, 100)
+
+TextButton.Parent = Closed
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Position = UDim2.new(0, 0, -0.188461602, 0)
+TextButton.Size = UDim2.new(0, 186, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Open Bloxy Hub"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 30.000
+
+UICorner_3.Parent = TextButton
+
+-- Scripts:
+
+local function YLELGRI_fake_script() -- NexusHubPL.LocalScript 
+	local script = Instance.new('LocalScript', NexusHubPL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+	end)
+end
+coroutine.wrap(YLELGRI_fake_script)()
+local function EPOUBG_fake_script() -- Opened.Dragify 
+	local script = Instance.new('LocalScript', Opened)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+		dragToggle = nil
+		dragSpeed = 0.15
+		dragInput = nil
+		dragStart = nil
+		dragPos = nil
+		function updateInput(input)
+			Delta = input.Position - dragStart
+			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.15), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	dragify(script.Parent)
+	
+end
+coroutine.wrap(EPOUBG_fake_script)()
+local function SDPI_fake_script() -- PREVAILXPL.LocalScript 
+	local script = Instance.new('LocalScript', PREVAILXPL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+	end)
+end
+coroutine.wrap(SDPI_fake_script)()
+local function HLDOH_fake_script() -- PetSimAutoFarmPetSimulatorX.LocalScript 
+	local script = Instance.new('LocalScript', PetSimAutoFarmPetSimulatorX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptRUs/Ryans/main/PetSimulatorXAutofarm.lua'))()
+	end)
+end
+coroutine.wrap(HLDOH_fake_script)()
+local function ZSPI_fake_script() -- AntiAFK.LocalScript 
+	local script = Instance.new('LocalScript', AntiAFK)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(3)
+		local VirtualUser=game:service'VirtualUser'
+		game:service('Players').LocalPlayer.Idled:connect(function()
+			VirtualUser:CaptureController()
+			VirtualUser:ClickButton2(Vector2.new())
+		end)
+		print("loaded!")
+	end)
+end
+coroutine.wrap(ZSPI_fake_script)()
+local function MIMGUNN_fake_script() -- Vapev4Bedwars.LocalScript 
+	local script = Instance.new('LocalScript', Vapev4Bedwars)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+end
+coroutine.wrap(MIMGUNN_fake_script)()
+local function VCFJAV_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	local r = { 
+		Color3.fromRGB(254, 0, 0);  
+		Color3.fromRGB(255, 127, 0); 
+		Color3.fromRGB(255, 221, 1); 
+		Color3.fromRGB(0, 200, 0);  
+		Color3.fromRGB(0, 160, 199); 
+		Color3.fromRGB(0, 55, 230);  
+		Color3.fromRGB(129, 16, 210)} 
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1] 
+	i = 1
+	while true do
+		local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+			TextColor3 = r[i]}) 
+		tween:Play()
+		repeat wait() until tween.Completed
+		wait(0.1)
+		if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(VCFJAV_fake_script)()
+local function YCXDNI_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Closed.Visible = true
+	end)
+end
+coroutine.wrap(YCXDNI_fake_script)()
+local function APHLSG_fake_script() -- DHXHubPSX.LocalScript 
+	local script = Instance.new('LocalScript', DHXHubPSX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
+	end)
+end
+coroutine.wrap(APHLSG_fake_script)()
+local function WJDD_fake_script() -- JP100.LocalScript 
+	local script = Instance.new('LocalScript', JP100)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+	end)
+end
+coroutine.wrap(WJDD_fake_script)()
+local function UESKRO_fake_script() -- WS100.LocalScript 
+	local script = Instance.new('LocalScript', WS100)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	end)
+end
+coroutine.wrap(UESKRO_fake_script)()
+local function HFRFCZ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Opened.Visible = true
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(HFRFCZ_fake_script)()
